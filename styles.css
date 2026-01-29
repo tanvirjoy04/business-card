@@ -3,25 +3,43 @@ body {
 }
 
 .avatar {
-  width: 150px;
+  width: 40%;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
 }
 
 .card {
-  width: 400px;
+  width: 475px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   justify-content: space-around;
   text-align: center;
-  background: #ffd449;
-  color: #2b2839;
-  border-bottom: 6px solid #d8cefe;
+  background: #023047;
+  color: #fffae0;
+  border-top: 8px solid #ffb706;
+  border-bottom: 8px solid #ffb706;
   border-radius: 10px;  
   font-family: Arial, Helvetica, sans-serif;  
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
 }
 
 .border-blue {
   border: 1px dotted blue;
+}
+
+#text{
+  font-size: large;
+}
+
+a{
+  color:aqua;
+  font-weight: 900;
+  font-size:large;
+}
+a:hover{
+  color:yellow;
 }
 
 h3:hover,p:hover,h4:hover{
